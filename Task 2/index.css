@@ -1,0 +1,151 @@
+.head{
+    /*background: linear-gradient(45deg, #f7ebee, #ff8c78);   */
+    background: linear-gradient(to right, white 30%,  #dc4d34 70%); /* Set your desired colors and split point */
+
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.whole{     
+  color: #181028;
+  padding: 2rem;
+  margin-bottom: 1rem; 
+  border-radius: 0.75rem;
+}
+
+/*card 1 */
+.card1{
+  position: absolute;
+  background-color: aliceblue;
+  top:10%;
+  left:35%;
+  padding: 1.5rem;
+  display: flex;
+  justify-content:space-evenly;
+  gap: 1.5rem;
+  border-radius: 1.5rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.home{
+  background: linear-gradient(45deg, #e0295d, #ff8c78);
+  border-radius: 100% / 70%;
+  padding: 0.5rem;
+  
+}
+/*card 2 */
+.card2{
+    position: absolute;
+    background: linear-gradient(45deg, #d93664, #ed5034);
+    top:30%;
+    left:15%;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    border-radius: 1.5rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    border: 0.2rem solid #ffffff;
+    border-style:inset;
+}
+.c2-head{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    color: white;
+}
+.card2 p{
+    margin: 0;
+}
+.c2-data{
+    margin: 0;
+}
+
+.card3{
+    position: absolute;
+    background: white;
+    top:60%;
+    left:15%;
+    padding: 1.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    text-wrap:pretty;
+    gap: 1.5rem;
+    width: 30%;
+    border-radius: 1.5rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.down{
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrow{
+    color: #cf718b;
+    border-radius: 40%;
+    width: 2.5rem;
+    padding: 0.2rem;
+    border: 2px solid #e5c1ca;
+
+}
+
+.card4{
+    position: absolute;
+    background: white;
+    top:30%;
+    left:50%;
+    padding: 1.5rem;
+    text-align: center;
+    text-wrap:pretty;
+    width: fit-content;
+    border-radius: 1.5rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.profile{
+    display: flex;
+    box-sizing:border-box;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 2rem;
+}
+
+.p1, .p2, .p3, .p4{
+    width: 48%;
+    box-sizing: border-box; 
+    padding: 1rem;
+    margin: 0;
+    border-radius: 0.5rem;
+    box-shadow: rgba(158, 5, 33, 0.2) 0px 7px 50px 0px;
+}
+
+.btn{
+    border-radius: 1rem;
+    padding: 0.5rem;
+    color:rgb(245, 245, 245);
+    background: linear-gradient(45deg, #d93664, #ed5034);
+    margin: 0;
+}
+.name{
+    font-weight: bold;
+}
+.p1,.p2,.p3,.p4{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin: 0;
+}
+.p{
+    width: 90%;
+}
+.dots{
+    width: 10%;
+}
