@@ -1,0 +1,120 @@
+.head{
+    /*background: linear-gradient(45deg, #f7ebee, #ff8c78);   
+    background: linear-gradient(to right, white 30%,  #dc4d34 70%);  Set your desired colors and split point */
+    background-color: rgb(246, 246, 252);
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.whole{     
+  color: #181028;
+  padding: 2rem;
+  gap:2rem;
+  margin-bottom: 1rem; 
+  border-radius: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(45deg, #f7ebee, #ff8c78);
+    padding: 3rem;
+    color: #10166b;
+    border-radius: 3rem;
+}
+
+form #head{
+    font-size: large;
+    font-weight: bold;
+}
+
+form #h1, #h2{
+    font-size: smaller;
+    font-weight: bold;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    gap: 1.5rem;
+    justify-content: flex-start;
+}
+.pay1{
+    position: relative;
+    width: max-content;
+}
+.pay2{
+    position: relative;
+    width: max-content;
+}
+#pay1{
+    justify-content: flex-start;
+}
+.details{
+    position: relative;
+    left: 8%;
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+}
+.line1 #cno{
+    width:92%;
+    padding: 0.5rem;
+}
+.line2 #c_expiry, #c_pin{
+    width: 46%;
+    padding: 0.5rem;
+}
+.line2{
+    position: relative;
+    width: max-content;
+    display: flex;
+    flex-direction: row;    
+}
+.save{
+    margin-top: 1rem;
+}
+
+.pay2 #data{
+    position: relative;
+    left: 15%;
+    font-size: small;
+    margin-top: 1rem;
+
+}
+
+.line1, line2{
+    font-size: 100;
+}
+
+button{
+    width: 100%;
+    padding: 1rem;
+    background-color: #262fac;
+    color: white;
+    border-color: #262fac;
+}
+button:hover{
+    color: #262fac;
+    background-color: white ;
+    border-color: #262fac;
+}
+
+input{
+    background-color: #eeebeb;
+    border: 1px solid #262fac;
+}
+input:active{
+    border: 3px solid #262fac;
+}
+
+input{
+    size: 1rem;
+}

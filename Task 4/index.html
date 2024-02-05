@@ -1,0 +1,64 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Remove the line below if you don't want to use TailwindCSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" >
+
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <!-- Change code below this line -->
+  <body class="head">
+    <div class="whole">
+        <div class="card">
+            <form class="form">
+                <p id="head">Payment</p>
+                    <div class="pay1">
+                        <input type="radio" id="pay1" name="payment" value="">
+                        <label for="pay1">
+                        Card
+                        <div class="details">
+                        
+                            <p>Pay with a card</p>
+                            
+                            <div class="line1">
+                                    <input type="text" id="cno" name="cardNo" placeholder="&#128179; Card number" value="" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;" class="icon">
+                                    <label for="cno"></label>    
+
+                            </div>
+                            <div class="line2">
+                                
+                                <input type="text" id="c_expiry" name="cardExpiry" placeholder="&#x1F4C5; mm/dd" value="" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                                <label for="c_expiry"></label>
+                                <input type="text" id="c_pin" name="cardPin" placeholder="&#x1F512; cvc" value="" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                                <label for="c_pin"></label>
+                            </div>
+                            <div class="save">
+                            <input type="checkbox" id="c_save" name="cardSave" value="">
+                            <label for="c_save">Remember my card</label>
+                            </div>
+
+                        </div> 
+                    </div>          
+                </label>
+                    <div class="pay2">
+                        <input type="radio" id="pay2" name="payment" value="Card">
+                        <label for="pay2">
+                            Get first. Pay later.        
+                        <div id="data">Pay within 30 days.</div>
+                    </div></label>
+
+
+                <button type="submit">CONTINUE</button>
+            </form>
+            <div class="btn">
+
+            </div>
+        </div>
+
+    </div>
+  </body>
+</html>
