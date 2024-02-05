@@ -78,6 +78,8 @@ form #h1, #h2{
     display: flex;
     flex-direction: row;    
 }
+
+
 .save{
     margin-top: 1rem;
 }
