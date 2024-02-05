@@ -1,0 +1,108 @@
+.head{
+    /*background: linear-gradient(45deg, #f7ebee, #ff8c78);   
+    background: linear-gradient(to right, white 30%,  #dc4d34 70%);  Set your desired colors and split point */
+    background-color: rgb(246, 246, 252);
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.whole{     
+  color: #181028;
+  padding: 2rem;
+  gap:2rem;
+  margin-bottom: 1rem; 
+  border-radius: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content{
+    display: flex;
+    box-sizing:border-box;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 2rem;
+    width: 60%;
+}
+.p{
+    width: 30%;
+    flex-direction: column;
+    box-sizing: border-box; 
+    padding: 2rem;
+    border-radius: 0.5rem;
+    background-color: white;
+    box-shadow: rgba(58, 47, 184, 0.2) 0px 7px 50px 0px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+.data{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+button{
+    padding: 0.5rem 2rem;
+    justify-content: center;
+    border-radius: 0.25rem;
+    background-color: transparent;
+    color: rgb(6, 6, 92);
+    border: 1px solid;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.d1{
+    background: linear-gradient(45deg, #f7ebee, #8b39ca); 
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.d2{
+    background: linear-gradient(45deg, #f7ebee, #cb737c); 
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+.d3{
+    background: linear-gradient(45deg, #d9c0e1, #b0c0d6); 
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.d4{
+    background: linear-gradient(45deg, #8ebecb, #c3a3db); 
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+.d5{
+    background: linear-gradient(45deg, #bc6c80, #d4ccbc); 
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+i{
+    background: linear-gradient(45deg, #f7ebee, #8b39ca); 
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+.footer{
+    width: 50%;
+    text-align:center;
+}
+#b{
+    padding: 0.5rem 2rem;
+    justify-content: center;
+    border-radius: 0.25rem;
+    background-color: rgb(1, 1, 65);
+    color: white;
+    border: 1px solid;
+}
