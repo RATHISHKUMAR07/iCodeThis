@@ -1,0 +1,160 @@
+.head{
+    /*background: linear-gradient(45deg, #f7ebee, #ff8c78);   
+    background: linear-gradient(to right, white 30%,  #dc4d34 70%); */
+    background-color: antiquewhite;
+     display: flex;
+    min-height: 100vh;
+    min-width: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.whole{     
+  color: #181028;
+  padding: 2rem;
+  gap:2rem;
+  margin-bottom: 1rem; 
+  border-radius: 0.75rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.card1{
+    position: relative;
+    top: 10%;
+    left: 90%;
+    color:#5c22d1;
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+    background-color: white;
+    gap: 1rem;
+    width: 80%;
+    border-radius: 2rem;
+    box-shadow: rgba(53, 8, 104, 0.2) 0px 7px 29px 0px;
+    margin: 0;
+    z-index: 2;
+}
+.selection{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.dropdown{
+    border-radius: 0.4rem;
+    padding: 0.8rem;
+    color: #5c22d1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#url{
+    border-radius: 0.4rem;
+    border: 1px solid ;
+    padding: 0.8rem;
+    color: #5c22d1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input::placeholder{
+    color: #9381b8;
+
+}
+
+.btn{
+    display: flex;
+    width: 100%;
+}
+button{
+    padding: 0.9rem;
+    width: 100%;
+    margin: 1;
+    border-radius: 0.5rem;
+}
+
+#b1{
+    background-color: #3905a1;
+    color: aliceblue;
+    border: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#b2{
+    color:#3905a1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(254, 255, 255);
+    border: none;
+}
+
+.btn button{
+    cursor: pointer;
+}
+
+.dropdown:active,
+#url:active  {
+    background-color: #c2a7dc;
+    border-color: #3905a1;
+}
+
+/* Define styles when the button with id "b2" is clicked */
+#b1:active {
+    background-color: #c2a7dc;
+    border-color: #3905a1;
+}
+
+#b2:active {
+    background-color: #c2a7dc;
+    border-color: #3905a1;
+}
+
+.card2{
+    position:relative;
+    left: 50%;
+    color:#5c22d1;
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+    background-color: white;
+    gap: 1rem;
+    width: 80%;
+    border-radius: 2rem;
+    box-shadow: rgba(53, 8, 104, 0.2) 0px 7px 29px 0px;
+    margin: 0;
+    z-index: 1;
+}
+
+.sub{
+    font-size: small;
+    margin: 3;
+}
+
+.drop{
+    border-radius: 0.4rem;
+    width: 30%;
+    padding: 0.8rem;
+    color: #5c22d1;
+    margin-right: 5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#url1{
+    border-radius: 0.4rem;
+    border: 1px solid ;
+    padding: 0.8rem;
+    width: 75%;
+    color: #5c22d1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.select{
+    display: flex;
+}
+
+.drop:active,
+#url1:active  {
+    background-color: #c2a7dc;
+    border-color: #3905a1;
+}
+
+.icon{
+    margin-top: 5;
+}
