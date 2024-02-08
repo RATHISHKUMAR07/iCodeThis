@@ -1,0 +1,129 @@
+body{
+    width: 100dvh;
+    height: 100dvh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: antiquewhite;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.card1{
+    position: relative;
+    top: -15%;
+    left: 40%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.card1 .c1_1{
+    padding: 4rem;
+}
+
+.c1_1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border-right: 0.5rem solid rgb(106, 233, 255) ;
+
+}
+.c1_2{
+    width: 50%;
+}
+#img1{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0rem 1rem 1rem 0rem;
+   
+}
+#img1{
+    mix-blend-mode: difference;
+}
+#btn1{
+    margin-top: 2rem;
+    width: 10rem;
+    height: 2.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(30, 233, 247);
+    background-color:rgb(16, 16, 16) ;
+    border: none;
+    font-weight:bold;
+}
+button{
+    cursor: pointer;
+}
+
+.card2{
+    position: absolute;
+    left: 50%;
+    top: 65%;
+    background-color: white;
+    width: min-content;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 4rem;
+    margin: 0;
+    border-radius: 1rem;
+    z-index: 1;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.card3{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1.5fr 1.1fr 0.4fr;
+    border-radius: 1rem;
+    width: 600px;
+    height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#img2{
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem 0rem 0rem 1rem;
+    mix-blend-mode: difference;
+    background-size: cover ;
+    background-position:inherit;
+    display: inline-block;
+    
+
+}
+.c3_2{
+    position: relative;
+    text-align: center;
+    margin-top: 5rem;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.c3_3{
+    padding: 1rem;
+}
+#btn2{
+    margin-top: 2rem;
+    padding: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(30, 233, 247);
+    background-color:rgb(16, 16, 16) ;
+    border: none;
+    font-weight:bold;
+    width: max-content;
+    border-radius: 0.5rem;
+}
+
+#img2 img{
+    position: absolute;
+    transform: scaleX(-1);
+}
