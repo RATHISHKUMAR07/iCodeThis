@@ -1,0 +1,105 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+    background-color: rgb(227, 227, 240);
+    color: #161a3b;
+}
+.card{
+    background-color: white;
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    font-weight: bold;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.profile{
+    width: 5dvw; 
+    height: 5dvw;
+    border-radius: 50%;
+    background-color: #e0e0e0; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.profile:hover{
+    background-color: white; 
+    border: 1px solid #161a3b;
+}
+
+.profile p {
+    margin: 0; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    margin-top: 2rem;
+    padding: 0;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    width:2rem;
+    text-align: center;
+    padding: 0.5rem;
+    margin: 1rem;
+    list-style-type: none;
+    cursor: pointer;
+    border: 1px solid #e0e0e0;
+    border-radius: 0.5rem;
+    background-color: #e0e0e0;
+}
+li:hover{
+    color: white;
+    background-color: #161a3b;
+    
+}
+
+button{
+    width:20dvw;
+    background-color: #161a3b;
+    color: white;
+    padding: 1rem;
+    margin-top: 2rem;
+    border-radius: 0.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.line{
+    margin: 0;
+    padding: 0;
+    gap: 0;
+    width: 100%;
+    border: 5px solid #161a3b;
+}
