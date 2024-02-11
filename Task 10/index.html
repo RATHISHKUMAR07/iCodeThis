@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="card">
+        <div class="head">
+            <p style="margin: 0;">Groceries</p>
+            <i style="margin: 0;" class="fa-solid fa-ellipsis"></i>
+        </div>
+        <p id="share" style="text-decoration: underline; margin-bottom: 1rem; ">Shared with 1 person</p>
+        <div class="itemsForm">
+            <div id="itemsList"></div>
+            <p id="count"> COMPLETED (0)</p>
+            <div class="selectedItems" style="color: gray;"></div> <!-- Corrected class name -->
+        </div>
+        <div class="btn">
+            <button id="addItem" type="button"><i class="fa-solid fa-plus"></i></button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

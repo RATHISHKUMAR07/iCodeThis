@@ -1,0 +1,66 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: darkblue;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: white ;
+    width: 20dvw;
+    padding: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px 15px 5px;
+
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: x-large;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+#share{
+    margin: 0;
+    font-size: small;
+    padding-top: 0.3rem;
+}
+
+#itemsList{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-self: start;
+    margin: 0;
+}
+
+#itemsList p{
+    padding: 0.5rem;
+    margin: 0;
+}
+
+
+
+.btn{
+    display: flex;
+    justify-content: end;
+}
+button{
+    background-color: rgb(9, 9, 84);
+    color: white;
+    padding: 0.5rem;
+    width: 5dvw;
+}
+
+#newItem{
+    padding: 0.3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 10dvw;
+}
