@@ -4,84 +4,94 @@ This repository contains the daily front-end challenges that I completed on the 
 
 ## Task 1
 
-- [Code](https://github.com/RATHISHKUMAR07/iCodeThis/tree/fullstack/Task%201)
+- [Code](https://github.com/RATHISHKUMAR07/iCodeThis/tree/fullstack/Task-1)
 
   
 ### Screenshot
 
-![Screenshot 1](https://github.com/RATHISHKUMAR07/iCodeThis/blob/fullstack/Task%201/task1.png)
+![Screenshot 1](https://github.com/RATHISHKUMAR07/iCodeThis/blob/fullstack/Task-1/task1.png)
 
 ## Task 2
 
-- [Code](https://github.com/RATHISHKUMAR07/iCodeThis/tree/fullstack/Task%202)
+- [Code](https://github.com/RATHISHKUMAR07/iCodeThis/tree/fullstack/Task-2)
 
   
 ### Screenshot
 
-![Screenshot 1](https://github.com/RATHISHKUMAR07/iCodeThis/blob/fullstack/Task%202/task2.png)
+![Screenshot 1](https://github.com/RATHISHKUMAR07/iCodeThis/blob/fullstack/Task-2/task2.png)
 
 ## Task 3
 
-- [Code](https://github.com/RATHISHKUMAR07/iCodeThis/tree/fullstack/Task%203)
+- [Code](https://github.com/RATHISHKUMAR07/iCodeThis/tree/fullstack/Task-3)
 
   
 ### Screenshot
 
-![Screenshot 1](https://github.com/RATHISHKUMAR07/iCodeThis/blob/fullstack/Task%203/task3.png)
+![Screenshot 1](https://github.com/RATHISHKUMAR07/iCodeThis/blob/fullstack/Task-3/task3.png)
 
 ## Task 4
 
-- [Code](https://github.com/RATHISHKUMAR07/iCodeThis/tree/fullstack/Task%204)
+- [Code](https://github.com/RATHISHKUMAR07/iCodeThis/tree/fullstack/Task-4)
 
   
 ### Screenshot
 
-![Screenshot 1](https://github.com/RATHISHKUMAR07/iCodeThis/blob/fullstack/Task%204/task4.png)
+![Screenshot 1](https://github.com/RATHISHKUMAR07/iCodeThis/blob/fullstack/Task-4/task4.png)
 
 ## Task 5
 
-- [Code](https://github.com/RATHISHKUMAR07/iCodeThis/tree/fullstack/Task%205)
+- [Code](https://github.com/RATHISHKUMAR07/iCodeThis/tree/fullstack/Task-5)
 
   
 ### Screenshot
 
-![Screenshot 1](https://github.com/RATHISHKUMAR07/iCodeThis/blob/fullstack/Task%205/task5.png)
+![Screenshot 1](https://github.com/RATHISHKUMAR07/iCodeThis/blob/fullstack/Task-5/task5.png)
 
 ## Task 6
 
-- [Code](https://github.com/RATHISHKUMAR07/iCodeThis/tree/fullstack/Task%206)
+- [Code](https://github.com/RATHISHKUMAR07/iCodeThis/tree/fullstack/Task-6)
 
   
 ### Screenshot
 
-![Screenshot 1](https://github.com/RATHISHKUMAR07/iCodeThis/blob/fullstack/Task%206/task6.png)
+![Screenshot 1](https://github.com/RATHISHKUMAR07/iCodeThis/blob/fullstack/Task-6/task6.png)
 
 ## Task 7
 
-- [Code](https://github.com/RATHISHKUMAR07/iCodeThis/tree/fullstack/Task%207)
+- [Code](https://github.com/RATHISHKUMAR07/iCodeThis/tree/fullstack/Task-7)
 
   
 ### Screenshot
 
-![Screenshot 1](https://github.com/RATHISHKUMAR07/iCodeThis/blob/fullstack/Task%207/task7.png)
+![Screenshot 1](https://github.com/RATHISHKUMAR07/iCodeThis/blob/fullstack/Task-7/task7.png)
 
 ## Task 8
 
-- [Code](https://github.com/RATHISHKUMAR07/iCodeThis/tree/fullstack/Task%208)
+- [Code](https://github.com/RATHISHKUMAR07/iCodeThis/tree/fullstack/Task-8)
 
   
 ### Screenshot
 
-![Screenshot 1](https://github.com/RATHISHKUMAR07/iCodeThis/blob/fullstack/Task%208/task8.png)
+![Screenshot 1](https://github.com/RATHISHKUMAR07/iCodeThis/blob/fullstack/Task-8/task8.png)
 
-## Task 8
+## Task 9
 
-- [Code](https://github.com/RATHISHKUMAR07/iCodeThis/tree/fullstack/Task%209)
+- [Code](https://github.com/RATHISHKUMAR07/iCodeThis/tree/fullstack/Task-9)
 
   
 ### Screenshot
 
-![Screenshot 1](https://github.com/RATHISHKUMAR07/iCodeThis/blob/fullstack/Task%209/task9.png)
+![Screenshot 1](https://github.com/RATHISHKUMAR07/iCodeThis/blob/fullstack/Task-9/task9.png)
+
+## Task 10
+
+- [Code](https://github.com/RATHISHKUMAR07/iCodeThis/tree/fullstack/Task-10)
+
+  
+### Screenshot
+
+![Screenshot 1](https://github.com/RATHISHKUMAR07/iCodeThis/blob/fullstack/Task-10/task10.png)
+
 
 
 
