@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://icons.getbootstrap.com/icons/grid-fill/"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+    
+  </head>
+  <body>
+    <div class="main">
+        <div class="head">
+            <h1>Users</h1>
+        </div>
+        <div class="mid">
+            <div class="seach">
+                <input type="text" placeholder=" Search users">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li onclick="handleMenuItemClick('reputation')">Reputation</li>
+                    <li onclick="handleMenuItemClick('newUsers')">New Users</li>
+                    <li onclick="handleMenuItemClick('voters')">Voters</li>
+                    <li onclick="handleMenuItemClick('editors')">Editors</li>
+                    <li onclick="handleMenuItemClick('moderators')">Moderators</li>
+                </ul>
+            </div>
+        </div>
+        <div class="userDetails"></div>
+
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

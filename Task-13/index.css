@@ -1,0 +1,120 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(233, 233, 244);
+}
+.main{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 3rem 7rem 5rem 7rem;
+    margin: 0;
+    flex-direction: column;
+}
+.mid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.search{
+    width: 30dvw;
+}
+.menu{
+    width: 40dvw;
+    padding: 1rem;
+}
+input{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 1rem;
+    width: 20dvw;
+}
+.menu ul{
+    display: flex;
+    width: 40dvw;
+    justify-content: space-around;
+}
+.menu li{
+    list-style-type: none;
+    margin: 0.2dvw;
+    padding: 1dvw;
+    align-items: center;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    
+}
+
+.menu li:hover{
+    background-color: rgb(165, 165, 235);
+    color:white;
+}
+
+img{
+    border-radius: 50%;
+    width: 6rem;
+    height: 5rem;
+    border: 2px solid aliceblue;
+    background-size:auto;
+}
+.userDetails:hover img:nth-child(n){
+    border: 2px solid black;
+}
+
+.userDetails {
+    display: grid;
+    box-sizing: border-box;
+    grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
+    grid-gap: 20px; /* Gap between cards */
+}
+
+
+
+.cardItem {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    padding: 1rem;
+    text-align: center;
+    width: 20dvw;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: aliceblue;
+    border: 5px solid aliceblue;
+}
+.cardItem:hover:nth-child(n){
+    background-color: aliceblue;
+    color: black;
+    border: 5px solid black;
+}
+
+.tags{
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+}
+
+#name{
+    margin-bottom: 0.5rem;
+}
+#place{
+    margin: 0;
+    font-size: small;
+    padding: 0;
+}
+.tags li{
+    list-style-type: none;
+    border: 1px solid black;
+    padding: 0.3rem;
+    margin: 0.5rem;
+    border-radius: 1rem;
+    font-size: x-small;
+    color: rgb(84, 84, 199);
+
+}
+@media (min-width: 900px) {
+    .cards { grid-template-columns: repeat(3, 1fr); }
+  }
+  @media (min-width: 600px) {
+    .cards { grid-template-columns: repeat(2, 1fr); }
+  }
+    
