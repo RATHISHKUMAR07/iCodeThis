@@ -110,6 +110,15 @@ This repository contains the daily front-end challenges that I completed on the 
 
 ![Screenshot 1](https://github.com/RATHISHKUMAR07/iCodeThis/blob/fullstack/Task-12/task12.png)
 
+## Task 13
+
+- [Code](https://github.com/RATHISHKUMAR07/iCodeThis/tree/fullstack/Task-13)
+
+  
+### Screenshot
+
+![Screenshot 1](https://github.com/RATHISHKUMAR07/iCodeThis/blob/fullstack/Task-13/task13.png)
+
 
 
 
