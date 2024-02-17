@@ -58,9 +58,9 @@ const reputation = [
     }
 ]
 
-const voters = [
+const voters = [https://images
     {
-        img: "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Z2lybHN8ZW58MHx8MHx8fDA%3D",
+        img: ".unsplash.com/photo-1529626455594-4ff0802cfb7e?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Z2lybHN8ZW58MHx8MHx8fDA%3D",
         name: "Lelah Nicols",
         place: "Troy, MI",
         tags: ["clothes", "stem"]
