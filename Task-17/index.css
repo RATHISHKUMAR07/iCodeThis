@@ -1,0 +1,170 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: antiquewhite;
+    position: relative;
+    display: flex;
+    left: 20dvw;
+    top: 5dvw;
+    gap: 2rem;
+}
+
+.card1{
+    width: 25dvw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+    height: min-content;
+}
+.card2{
+    width: 25dvw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+    gap: 1rem;
+    height: min-content;
+}
+.head_1{
+    display: flex;
+    align-items: center;
+}
+.c1_h1{
+    margin-right: 1rem;
+}
+.email_others{
+    border-top: 3px solid grey;
+}
+.add_email{
+    display: flex;
+    gap: 1rem;
+    color: orange;
+    font-size: large;
+    align-items: center;
+}
+.add_email button{
+    border-radius: 50%;
+    border: 3px solid gray;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 0;
+    padding: 0;
+    font-size: xx-large;
+    text-align: center;
+    color: orange;
+    background-color: white;
+    cursor: pointer;
+
+}
+
+
+
+.emailDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: large;
+}
+
+.primary_tag{
+    background-color: gainsboro;
+    padding: 0.3rem;
+    font-size: x-small;
+    font-weight: bolder;
+}
+
+.otherDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.email_others button{
+    height: fit-content;
+    background: none;
+    border: none;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.newEmail{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    align-items: center;
+    gap: 1rem;
+}
+
+.newEmail input{
+    padding: 0.5rem;
+    border: none;
+    border-bottom: 2px solid grey;
+
+}
+.newEmail button{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: fit-content;
+    padding: 0.3rem;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(60, 94, 9);
+    border: none;
+}
+
+
+.add_phone{
+    display: flex;
+    gap: 1rem;
+    color: orange;
+    font-size: large;
+    align-items: center;
+}
+.add_phone button{
+    border-radius: 50%;
+    border: 3px solid gray;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 0;
+    padding: 0;
+    font-size: xx-large;
+    text-align: center;
+    color: orange;
+    background-color: white;
+    cursor: pointer;
+
+}
+
+
+.phone{
+    background-color: rgb(204, 189, 189);
+    background-size: 50px 100%;
+    padding: 1rem;
+    text-align: center;
+}
+
+.newPhone{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    align-items: center;
+    gap: 1rem;
+}
+
+.newPhone input{
+    padding: 0.5rem;
+    border: none;
+    border-bottom: 2px solid grey;
+
+}
+.newPhone button{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: fit-content;
+    padding: 0.3rem;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(60, 94, 9);
+    border: none;
+}
