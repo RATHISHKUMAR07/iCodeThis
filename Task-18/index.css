@@ -1,0 +1,158 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.alarmCard{
+    background-color: rgb(4, 56, 56);
+    width: 16rem;
+    height: 40rem;
+    padding: 1rem;
+    position: fixed;
+    z-index: 0;
+    left: 40%;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    font-size: large;
+}
+
+.head i:hover{
+    color: rgb(95, 83, 83);
+}
+.time{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.timeP{
+    margin-bottom: 0;
+    color: white;
+}
+.dateP{
+    font-size: smaller;
+    color: gainsboro;
+    margin-top: 0;
+    padding-top: 0;
+}
+.addAlarm{
+    text-align: center;
+    padding: 1rem;
+}
+.btn{
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+    background-color: rgb(134, 171, 159);
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: white;
+    color: grey;
+}
+.addContent {
+    position: fixed;
+    top:70%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%);
+    z-index: 1; /* Ensure the popup is above other content */
+    background-color: rgb(57, 146, 146);
+    width: fit-content;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+.weeks{
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+}
+
+.weeks input{
+    margin-left: 1rem;
+}
+.addContent input{
+    padding: 0.5rem;
+}
+.addContent button{
+    position: relative;
+    left: 20%;
+    width: fit-content;
+    background-color: rgb(134, 171, 159);
+    border: none;
+    padding: 0.5rem 5rem;
+}
+
+
+
+.eachAlarm{
+    background-color: rgb(75, 150, 150);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: larger;
+    color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    width: 12dvw;
+    height: fit-content;
+    
+}
+
+/* Highlight selected weekdays */
+.selected {
+    background-color: rgb(238, 238, 232);
+    color: black;
+    padding: 0.2rem;
+    border-radius: 0.3rem;
+    margin: 0;
+}
+
+/* Change background color when alarm is turned off */
+.eachAlarm.off {
+    background-color: lightgray;
+    transition: background-color 0.3s ease; /* Add transition effect for smoother color change */
+}
+
+/* Style for the toggle button */
+.eachAlarm button {
+    background-color: #007bff;
+    width: fit-content;
+    height: fit-content;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add transition effect for smoother color change */
+}
+
+.eachAlarm button:hover {
+    background-color: #0056b3;
+}
+.timeToggleContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.days{
+    font-size:small;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
