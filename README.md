@@ -147,7 +147,7 @@ This repository contains the daily front-end challenges that I completed on the 
 
 ![Screenshot 1](https://github.com/RATHISHKUMAR07/iCodeThis/blob/fullstack/Task-16/task16.png)
 
-## Task 16
+## Task 17
 
 - [Code](https://github.com/RATHISHKUMAR07/iCodeThis/tree/fullstack/Task-17)
 
@@ -155,6 +155,15 @@ This repository contains the daily front-end challenges that I completed on the 
 ### Screenshot
 
 ![Screenshot 1](https://github.com/RATHISHKUMAR07/iCodeThis/blob/fullstack/Task-17/task17.png)
+
+## Task 17
+
+- [Code](https://github.com/RATHISHKUMAR07/iCodeThis/tree/fullstack/Task-18)
+
+  
+### Screenshot
+
+![Screenshot 1](https://github.com/RATHISHKUMAR07/iCodeThis/blob/fullstack/Task-18/task18.png)
 
 ## License
 
