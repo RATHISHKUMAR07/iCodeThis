@@ -20,7 +20,8 @@ body{
 }
 
 .head i:hover{
-    color: rgb(98, 82, 82);
+    
+    color: rgb(96, 77, 77);
 }
 .time{
     text-align: center;
